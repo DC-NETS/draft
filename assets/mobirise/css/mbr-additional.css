@@ -710,6 +710,34 @@ iframe.lazy-placeholder,
 section.lazy-placeholder:after {
   opacity: 0.3;
 }
+.cid-rJXwnYDGls {
+  padding-top: 105px;
+  padding-bottom: 30px;
+  background-color: #ffffff;
+}
+.cid-rJXwnYDGls h3 {
+  text-align: center;
+}
+.cid-rJXwnYDGls .mbr-section-subtitle {
+  color: #767676;
+  font-weight: 300;
+}
+.cid-rJXwnYDGls .mbr-content-text {
+  color: #767676;
+}
+.cid-rJXwnYDGls .panel-item {
+  background: #ffffff;
+}
+.cid-rJXwnYDGls .card {
+  word-wrap: break-word;
+}
+.cid-rJXwnYDGls .mbr-iconfont {
+  font-size: 80px;
+  color: #149dcc;
+}
+.cid-qTkA127IK8 {
+  background-image: url("../../../assets/images/nets-arena-jpeg.jpg");
+}
 .cid-rJOjkJ3IR5 {
   padding-top: 105px;
   padding-bottom: 45px;
@@ -1127,9 +1155,6 @@ section.lazy-placeholder:after {
 .cid-qTkzRZLJNu .nav-link:hover,
 .cid-qTkzRZLJNu .dropdown-item:hover {
   color: #c1c1c1 !important;
-}
-.cid-qTkA127IK8 {
-  background-image: url("../../../assets/images/nets-arena-jpeg.jpg");
 }
 .cid-rJQACJLtF7 {
   padding-top: 120px;

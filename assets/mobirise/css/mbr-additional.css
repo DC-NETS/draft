@@ -710,62 +710,43 @@ iframe.lazy-placeholder,
 section.lazy-placeholder:after {
   opacity: 0.3;
 }
-.cid-rJXwnYDGls {
-  padding-top: 105px;
-  padding-bottom: 30px;
+.cid-rJY0cKkSef {
+  padding-top: 90px;
+  padding-bottom: 90px;
   background-color: #ffffff;
 }
-.cid-rJXwnYDGls h3 {
-  text-align: center;
-}
-.cid-rJXwnYDGls .mbr-section-subtitle {
+.cid-rJY0cKkSef .mbr-section-subtitle {
   color: #767676;
   font-weight: 300;
 }
-.cid-rJXwnYDGls .mbr-content-text {
+.cid-rJY0cKkSef .mbr-content-text {
   color: #767676;
 }
-.cid-rJXwnYDGls .panel-item {
-  background: #ffffff;
-}
-.cid-rJXwnYDGls .card {
+.cid-rJY0cKkSef .card {
   word-wrap: break-word;
+  flex-shrink: 0;
+  -webkit-flex-shrink: 0;
 }
-.cid-rJXwnYDGls .mbr-iconfont {
-  font-size: 80px;
-  color: #149dcc;
+.cid-rJY0cKkSef .cards-container {
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-justify-content: center;
+  justify-content: center;
+  word-break: break-word;
+}
+@media (max-width: 767px) {
+  .cid-rJY0cKkSef .card:not(.last-child) {
+    padding-bottom: 1.5rem;
+  }
+}
+.cid-rJY0cKkSef .img-text {
+  color: #c1c1c1;
 }
 .cid-qTkA127IK8 {
   background-image: url("../../../assets/images/nets-arena-jpeg.jpg");
-}
-.cid-rJOjkJ3IR5 {
-  padding-top: 105px;
-  padding-bottom: 45px;
-  background-image: url("../../../assets/images/2018-19-city-edition-jersey-5.jpg");
-}
-.cid-rJOjkJ3IR5 .mbr-section-subtitle {
-  color: #767676;
-  text-align: center;
-  font-weight: 300;
-}
-.cid-rJOjkJ3IR5 .step {
-  width: 40px;
-  height: 40px;
-  font-size: 20px;
-  border-radius: 50%;
-  border: 2px solid #efefef;
-}
-.cid-rJOjkJ3IR5 .separline {
-  position: relative;
-}
-.cid-rJOjkJ3IR5 .separline:after {
-  top: 44px;
-  left: 18px;
-  position: absolute;
-  content: "";
-  width: 2px;
-  height: calc(100% - (20px + 4px) * 2);
-  background-color: #efefef;
 }
 .cid-qTkzRZLJNu .navbar {
   padding: .5rem 0;

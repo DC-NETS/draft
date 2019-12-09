@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html  >
+<html>
 <head>
   <!-- Site made with Mobirise Website Builder v4.11.6, https://mobirise.com -->
   <meta charset="UTF-8">
@@ -63,7 +63,7 @@
     </nav>
 </section>
 
-<section class="engine"><a href="https://mobirise.info/e">how to make your own site</a></section><section class="counters6 counters cid-rJY0cKkSef" id="counters6-13">
+<section class="engine"><a href="https://mobirise.info/w">html5 templates</a></section><section class="counters6 counters cid-rJY0cKkSef" id="counters6-13">
 
     
 
@@ -137,6 +137,59 @@
     
 </section>
 
+<section class="mbr-section" id="witsec-modal-window-block-17" data-rv-view="12">
+
+	<style>
+	/* Let's not animate the contents of modal windows */
+	.no-anim {
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+	</style>
+
+	
+	
+	<div><div class="modal " id="Video-Study" tabindex="-1" role="dialog" aria-labelledby="Video-StudyLabel" aria-hidden="true">  <div class="modal-dialog modal-sm " style="height:auto" role="document">    <div class="modal-content"><div class="modal-header">  <h5 class="no-anim modal-title" id="Video-StudyLabel">Modal title</h5>  <a href="#" class="no-anim close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></a></div><div class="modal-body" id="Video-Study_body">Modal body text goes here.</div><div class="modal-footer"><div class="mbr-section-btn"><a href="#" class="no-anim btn btn-secondary display-4" data-dismiss="modal">Close</a></div><div class="mbr-section-btn"><a href="https://www.youtube.com/watch?v=L1MLXV7gdN4" class="no-anim btn btn-primary display-4">Video study</a></div></div>    </div>  </div></div><script>document.addEventListener("DOMContentLoaded", function() {  $("#Video-Study").on("hidden.bs.modal", function () {    var html = $( "#Video-Study_body" ).html();    $( "#Video-Study_body" ).empty();    $( "#Video-Study_body" ).append(html);  })});</script></div>
+
+	<script>
+	if (typeof OpenModal === 'undefined') {
+		OpenModal = function(modalName) {
+			if ($('#' + modalName).length)
+				$('#' + modalName).modal('show');
+			else
+				alert("Sorry, but there is no modal for " + modalName);
+		}
+	}
+
+	function modalSetCookie(cname, cvalue, exdays) {
+		var d = new Date();
+		d.setTime(d.getTime() + (exdays*24*60*60*1000));
+		var expires = "expires="+ d.toUTCString();
+		document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+	}
+
+	function modalGetCookie(cname) {
+		var name = cname + "=";
+		var decodedCookie = decodeURIComponent(document.cookie);
+		var ca = decodedCookie.split(';');
+		for(var i = 0; i <ca.length; i++) {
+			var c = ca[i];
+			while (c.charAt(0) == ' ') {
+				c = c.substring(1);
+			}
+			if (c.indexOf(name) == 0) {
+				return c.substring(name.length, c.length);
+			}
+		}
+		return "";
+	}
+	</script>
+
+</section>
+
 <section class="cid-qTkAaeaxX5" id="footer1-2">
 
     
@@ -174,6 +227,59 @@
         </div>
         
     </div>
+</section>
+
+<section class="mbr-section" id="witsec-modal-window-block-16" data-rv-view="11">
+
+	<style>
+	/* Let's not animate the contents of modal windows */
+	.no-anim {
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+	</style>
+
+	
+	
+	<div></div>
+
+	<script>
+	if (typeof OpenModal === 'undefined') {
+		OpenModal = function(modalName) {
+			if ($('#' + modalName).length)
+				$('#' + modalName).modal('show');
+			else
+				alert("Sorry, but there is no modal for " + modalName);
+		}
+	}
+
+	function modalSetCookie(cname, cvalue, exdays) {
+		var d = new Date();
+		d.setTime(d.getTime() + (exdays*24*60*60*1000));
+		var expires = "expires="+ d.toUTCString();
+		document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+	}
+
+	function modalGetCookie(cname) {
+		var name = cname + "=";
+		var decodedCookie = decodeURIComponent(document.cookie);
+		var ca = decodedCookie.split(';');
+		for(var i = 0; i <ca.length; i++) {
+			var c = ca[i];
+			while (c.charAt(0) == ' ') {
+				c = c.substring(1);
+			}
+			if (c.indexOf(name) == 0) {
+				return c.substring(name.length, c.length);
+			}
+		}
+		return "";
+	}
+	</script>
+
 </section>
 
 

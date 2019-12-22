@@ -1645,19 +1645,13 @@ section.lazy-placeholder:after {
     padding-top: 3rem;
   }
 }
-.cid-rLpBdF0K3v {
-  background: #149dcc;
+.cid-rLpOthvKKc {
   padding-top: 60px;
   padding-bottom: 60px;
-  background: linear-gradient(0deg, #149dcc, #ffffff);
+  background-color: #ffffff;
 }
-.cid-rLpBdF0K3v .video-block {
-  margin: auto;
-}
-@media (max-width: 768px) {
-  .cid-rLpBdF0K3v .video-block {
-    width: 100% !important;
-  }
+.cid-rLpOthvKKc .mbr-section-subtitle {
+  color: #767676;
 }
 .cid-rLpzUO5k5f {
   padding-top: 60px;
